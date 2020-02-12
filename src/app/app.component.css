@@ -1,0 +1,19 @@
+.map {
+    position: relative;
+    text-align: center;
+  }
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .Regions{
+    opacity: 0.01;
+  }
+  .Regions:hover {
+    transition: opacity .2s ease;
+    opacity: 0.2;
+    cursor: pointer;
+  }
